@@ -6,22 +6,103 @@ body{
  Primary - #FD6E0A (orange)
  Dark - #15295F (dark blue)
 
+
+/* Navigation.js styles *****************/
+.navigation {
+  width: 600px;
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  width: 100%;
+  margin: auto;
+}
+
+.topnav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+ul.topnav { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul.topnav li {
+  float: left;
+
+}
+
+ul.topnav li a {
+  display: block;
+  color: #15295F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+.active a {
+  color: #15295F;
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+.active {
+  list-style-type: none;
+}
+
+.right {
+  float: right;
+  background-color: #FD6E0A;
+  list-style-type: none;
+  padding: 10px;
+}
+.right a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 600px){
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+
 /* App.js */
 
- /******* Projects Layout *******/
- .flex-position {
-  display: flex;
- }
-
- .flex-col {
-  display: flex;
-  flex-direction: column;
- }
+ /******* Page Layout *******/
+.page-layout {
+  width: 600px;
+  margin: auto;
+}
 
 
+ 
  /* Projects.js */
  .projects {
-  height: 500px;
+  display:flex;
+  height: 300px;
   width: 500px;
   background-color: #15295F;
   margin: 20px;

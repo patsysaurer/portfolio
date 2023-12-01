@@ -1,24 +1,29 @@
 import React from 'react'
-import './App.css' 
-import AboutMe from './components/AboutMe'
-import Contact from './components/Contact'
+import './App.css'
+import Navigation from './components/Navigation'
+import Social from './components/Social'
+import Hero from './components/Hero' 
+import Skills from './components/Skills'
+import About from './components/About'
 import Projects from './components/Projects'
-import Tools from './components/Tools'
-
+import Extra from './components/Extra'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 const App = () => {
   return (
     <>
-    <div className='flex-position'>
-      <h1>Patsy Saurer</h1>
-      <h2>Full-Stack Developer</h2>
+    <div className='page-layout'>
+      <Navigation />
+      <Social />
+      <Hero />
+      <Skills />
+      <About />
       <Projects />
-      <div className='flex-col'>
-        <Tools />
-        <AboutMe />
-        <Contact />
-      </div>
+      <Extra />
+      <Contact />
+      <Footer />
     </div>
     </>
   )

@@ -1,0 +1,15 @@
+.social-icons {
+    width: 15%;
+}
+
+.icons  {
+    list-style-type: none;
+    text-align: left;
+    padding:20px;
+    margin-left:30px;
+}
+
+.icons a {
+    color: #000;
+    font-size: large;
+}

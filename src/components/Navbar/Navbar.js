@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Button } from "reactstrap";
+import './navbar.css'
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -17,9 +19,12 @@ class Navbar extends Component {
             <div>
               <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
                 <li>
-                  <a className="active" href="#skills">
-                    Skills
+                  <a className="active" href="#home">
+                    Home
                   </a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
                 </li>
                 <li>
                   <a href="#about">About</a>
@@ -28,7 +33,13 @@ class Navbar extends Component {
                   <a href="#work">Work</a>
                 </li>
                 <li>
-                  <a href="#contact">Contact</a>
+                <a href="#contact">
+                <Button
+                  color="warning"
+                >
+                  Contact
+                </Button>
+                </a>
                 </li>
               </ul>
             </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.css'
-import Navigation from './components/Navigation'
 import Social from './components/Social'
 import Hero from './components/Hero' 
 import Skills from './components/Skills'
@@ -9,13 +8,14 @@ import Projects from './components/Projects'
 import Extra from './components/Extra'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
   return (
     <>
     <div className='page-layout'>
-      <Navigation />
+      <Navbar />
       <Social />
       <Hero />
       <Skills />

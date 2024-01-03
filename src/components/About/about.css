@@ -1,0 +1,15 @@
+.about {
+    padding: 40px;
+    background-color: #F1F4FB;
+}
+
+.about-text {
+    width: 75%;
+    margin: auto;
+}
+
+.about h3 {
+    color: #FD6E0A; 
+    text-align: center;
+    padding-bottom: 25px;
+}

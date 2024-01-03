@@ -1,7 +1,4 @@
 /* Navbar */
-body {
-  font-family: 'Playfair';
-}
 
 nav {
     display: flex;
@@ -27,7 +24,6 @@ nav {
   #navbar li a {
     text-decoration: none;
     font-size: 1.3rem;
-    font-weight: 600;
     color: #15295F;
     transition: 0.3s ease-in-out;
   }

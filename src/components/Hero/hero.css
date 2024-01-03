@@ -1,15 +1,30 @@
+/* Hero */
 #hero-section {
     display: flex;
-    padding: 50px;
-    margin-top: -187px;
+    margin-top: -160px;
+    padding-right:25px;
 }
+
+/* Intro */
+
+#intro-section {
+    width: 400px;
+    margin-left:100px;
+    padding: 25px;
+}
+
+#intro-section h2 {
+    color:#FD6E0A;
+}
+
+#intro-section h1 {
+    color: #15295F;
+}
+
+/* Slider */
 
 .slider {
     width: 60%;
-}
-
-#intro-section {
-    margin-top:200px;
 }
 
 .carousel-caption {
@@ -23,6 +38,6 @@
     }
     .slider {
         width: 100%;
-    }
+    } 
 
 }

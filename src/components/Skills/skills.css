@@ -1,0 +1,39 @@
+.line {
+    border: solid #eee 0.25px;
+}
+
+.skills {
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    padding: 25px;
+}
+
+.skills h2 {
+    color: #15295F;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.skills h3 {
+    color: #FD6E0A;
+    font-size: 1.2rem;
+}
+
+.skills-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top:20px;
+}
+
+.skills p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:769px){
+    .skills-group {
+        display: block;
+    }
+}

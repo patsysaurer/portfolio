@@ -3,15 +3,27 @@
  Dark - #15295F (dark blue)
 
 */
+* {
+    font-family: 'Playfair Display', serif;
+}
 
- 
- /* Projects.js */
- .projects {
-  display:flex;
-  height: 300px;
-  width: 500px;
-  background-color: #15295F;
-  margin: 20px;
-  border-radius: 2%;
- }
+.top-page {
+    width: 100%;
+    margin:auto;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    border-top: solid 0.25px #eee;
+    color: #333;
+}
+
+
+@media screen and (max-width:769px){
+    .top-page {
+        width: 100%;
+    }
+}
+
  
